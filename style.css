@@ -23,3 +23,26 @@ ul{
     display: flex;
     gap: 16px;
 }
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 50px;
+    gap: 20px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    width:150px ;
+    height:50px ;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgb(168, 144, 190);
+    color: antiquewhite
+}
+.header-image{
+    border-radius: 50%;
+}
