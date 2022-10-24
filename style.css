@@ -12,7 +12,7 @@ header{
 }
 .menu{
     display: flex;
-    justify-content: space-around;
+    padding-left: 138px;
 }
 .header-logo{
     height: 80px;
@@ -22,6 +22,8 @@ ul{
     list-style: none;
     display: flex;
     gap: 16px;
+    margin-left: auto;
+    padding-right: 200px;
 }
 .hero{
     display: flex;
@@ -34,6 +36,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: x-large;
 }
 button{
     width:150px ;
@@ -45,4 +48,87 @@ button{
 }
 .header-image{
     border-radius: 50%;
+}
+.companion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card0{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:250px ;
+    background-color: rgb(200, 174, 212);
+    border-radius: 15px;
+    padding: 10px;
+}
+.card{
+    height: 280px;
+    width: 250px;
+    border-radius: 15px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.deep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 208, 228);
+    height: 180px;
+    width: 1500px;
+    font-size: x-large;
+    padding : 20px;
+    border-radius: 20px;
+    color: rgb(66, 65, 65);
+
+    
+}
+.source{
+    display: flex;
+    padding-top: px;
+    padding-left: 1200px;
+    color: grey;
+}
+.slay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   width: 800px;
+    gap:20px;
+    border:solid;
+    border-radius: 20px;
+    border-color:rgb(218, 208, 228); 
+    background-color: #d6d0ec;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #23145f;
+    padding: 10px;
+}
+.electro{
+    height: 90px;
 }
