@@ -1,4 +1,25 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color:#23145f ;
+    color: aliceblue;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo{
+    height: 80px;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
 }
